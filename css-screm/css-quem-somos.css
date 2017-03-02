@@ -1,0 +1,32 @@
+div#erro{margin: 0 auto; width: 70%; padding: 10px; background-color: #660000; color: white; font-size: 1.2em; font-family: 'Quicksand', sans-serif; text-align: center; text-transform: uppercase; margin-top: 10px;}
+@media screen and (min-width: 951px){
+
+     *{margin: 0; padding: 0;}
+
+
+     /*MENU DO TOPO*/
+     section#menu_responsivo{display: none;}
+     section#menu-topo{margin: 0 auto; width: 100%; border: #000 1px solid; padding-bottom: 10px; background-color: #000; box-sizing: border-box;}
+     section#menu-topo table#menu-topo{width: 100%; border-spacing: 0; box-sizing: border-box; margin-top: 20px;}
+     section#menu-topo table#menu-topo tr td{text-align: right; }
+     section#menu-topo table#menu-topo tr td:first-child{text-align: center; width: 40%;}
+     section#menu-topo table#menu-topo img{width: 250px;}
+     section#menu-topo table#menu-topo ul#menu-topo{list-style: none; text-align: left; box-sizing: border-box; background-color: rgba(0,0,0,.5); padding-left: 50px;}
+     section#menu-topo table#menu-topo ul#menu-topo li{display: inline-block; margin: 10px;}
+     section#menu-topo table#menu-topo ul#menu-topo li a{display: block; text-decoration: none; color: #fff; font-family: 'Josefin Sans', sans-serif; text-transform: uppercase; font-size: .8em; padding: 0 10px; text-align: center;}
+     section#menu-topo table#menu-topo ul#menu-topo li a:hover{color: #ccc;}
+
+     section#descricao{margin: 0 auto; width: 100%; margin-top: 50px;}
+     section#descricao div#div-descricao{margin: 0 auto; width: 70%; text-align: justify; font-family: 'Josefin Sans', sans-serif; font-size: 1.5em;}
+
+     section#footer{margin: 0 auto; width: 100%; margin-top: 50px; box-sizing: border-box; padding: 10px; margin-bottom: 50px;}     
+     section#footer footer ul#ul-footer{margin: 0 auto; width: 100%; list-style: none; margin: 0; padding: 0;  text-align: center; vertical-align: top;}
+     section#footer footer ul#ul-footer li{ width: 49%; height: 500px; float: left;}
+     section#footer footer ul#ul-footer li h1{font-family: 'Quicksand', sans-serif; font-size: 2em; text-align: center; margin-top: 80px; text-transform: uppercase; display: block; color: #444;}
+     section#footer footer ul#ul-footer li p{font-family: 'Quicksand', sans-serif; font-size: 1.1em; text-align: center; margin-top: 30px; line-height: 30px;}
+     section#footer footer ul#ul-footer li a{text-decoration: none; color: #444;}
+     section#footer footer ul#ul-footer li table#tbl-info-footer{margin: 0 auto; width: 50%;text-align: center; margin-top: 30px;}
+     section#footer footer ul#ul-footer li table#tbl-info-footer td{text-align: center;}
+     section#footer footer ul#ul-footer li table#tbl-info-footer img#img-social{width: 50px; border: none;}
+
+}

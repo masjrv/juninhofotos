@@ -1,0 +1,50 @@
+
+@media screen and (max-width: 950px){
+
+     *{margin: 0; padding: 0;}
+
+     
+     /*MENU DO TOPO*/
+     section#menu-topo{margin: 0 auto; width: 100%; position: fixed;}
+     section#menu-topo table#menu-topo{width: 100%; border-spacing: 0; box-sizing: border-box; margin-top: 20px;}
+     section#menu-topo table#menu-topo tr td{text-align: right; }
+     section#menu-topo table#menu-topo tr td:first-child{text-align: center; width: 40%;}
+     section#menu-topo table#menu-topo img{width: 250px;}
+     section#menu-topo table#menu-topo ul#menu-topo{list-style: none; text-align: left; box-sizing: border-box; background-color: rgba(0,0,0,.5); padding-left: 50px;}
+     section#menu-topo table#menu-topo ul#menu-topo li{display: inline-block; margin: 10px;}
+     section#menu-topo table#menu-topo ul#menu-topo li a{display: block; text-decoration: none; color: #fff; font-family: 'Josefin Sans', sans-serif; text-transform: uppercase; font-size: .8em; padding: 0 10px; text-align: center;}
+     section#menu-topo table#menu-topo ul#menu-topo li a:hover{color: #ccc;}
+     
+     section#info-home{margin: 0 auto; width: 100%; bottom: 0; position: fixed; background-color: rgba(0,0,0,.6); height: 55px; padding-top: 10px; 
+                       box-sizing: border-box; color: #fff; font-family: 'Quicksand', sans-serif; font-size: .9em; text-align: center;}
+     
+     
+     
+     section#sessao_two{margin: 0 auto; width: 100%; height: 3800px; position: absolute; background-color: #fff; bottom: -3800px; text-align: center;}
+     section#sessao_two h1{font-family: 'Quicksand', sans-serif; font-size: 2em; text-align: center; margin-top: 80px; text-transform: uppercase; display: block; color: #444;}
+     section#sessao_two p{font-family: 'Quicksand', sans-serif; font-size: 1.1em; text-align: center; margin-top: 30px; line-height: 30px; color: #444;}
+     section#sessao_two p:nth-child(2){font-family: 'Quicksand', sans-serif; font-size: 1.1em; text-align: center; margin-top: 30px; line-height: 30px; color: #444; text-transform: uppercase;}
+     section#sessao_two a#link_mais{margin: 0 auto; margin-top: 30px; display: block; border: #000 1px solid; width: 150px; font-family: 'Quicksand', sans-serif; padding: 20px; border-radius: 50px; text-decoration: none; color: #000; text-transform: uppercase;}
+     section#sessao_two a#link_mais:hover{background-color: #000; color: #fff;}
+     
+     section#sessao_two ul#lista-trabalhos{margin: 0 auto; width: 100%; list-style: none; text-align: left; margin-top: 80px; box-sizing: border-box; }
+     section#sessao_two ul#lista-trabalhos li{width: 100%; height: 230px;  box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: 100%; position: relative;}     
+     section#sessao_two ul#lista-trabalhos li div#div-camada-geral2{width: 100%; height: 100%; background-color: rgba(255,255,255,.8); visibility: hidden; position: absolute;}
+     section#sessao_two ul#lista-trabalhos li:hover div#div-camada-geral2{visibility: visible; transition: .4s; transition-timing-function: ease-in;}
+     section#sessao_two p#titulo-galeria{margin: 0 auto; width: 90%; text-align: center; margin-top: 30px; text-transform: capitalize;}
+     section#sessao_two p#categoria-galeria{margin: 0 auto; width: 90%; text-align: center; margin-top: 20px; text-transform: uppercase; font-size: 1.2em;}
+     section#sessao_two a#link-veja-mais{margin: 0 auto; margin-top: 25px; display: block; border: #000 1px solid; width: 100px; font-family: 'Quicksand', sans-serif; padding: 10px; border-radius: 50px; text-decoration: none; color: #000; text-transform: uppercase; text-align: center;}
+     section#sessao_two a#link-veja-mais:hover{background-color: #000; color: #fff;}
+     
+     section#sessao_two div#div_insragram{margin: 0 auto; width: 100%; margin-top: 30px; margin-bottom: 10px;}
+     
+     section#sessao_two footer{margin: 0 auto; width: 100%; margin-top: 50px; box-sizing: border-box; padding: 10px; margin-bottom: 10px;}
+     
+     section#sessao_two footer ul#ul-footer{margin: 0 auto; width: 100%; list-style: none; margin: 0; padding: 0;  text-align: center; vertical-align: top;}
+     section#sessao_two footer ul#ul-footer li{width: 100%;}
+     section#sessao_two footer ul#ul-footer li a{text-decoration: none; color: #444;}
+     section#sessao_two footer ul#ul-footer li table#tbl-info-footer{margin: 0 auto; width: 50%;text-align: center; margin-top: 30px; margin-bottom: 30px;}
+     section#sessao_two footer ul#ul-footer li table#tbl-info-footer td{text-align: center;}
+     section#sessao_two footer ul#ul-footer li table#tbl-info-footer img#img-social{width: 50px; border: none;}
+     
+}

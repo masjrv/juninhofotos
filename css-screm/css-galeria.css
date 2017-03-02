@@ -1,0 +1,74 @@
+div#erro{margin: 0 auto; width: 70%; padding: 10px; background-color: #660000; color: white; font-size: 1.2em; font-family: 'Quicksand', sans-serif; text-align: center; text-transform: uppercase; margin-top: 10px;}
+@media screen and (min-width: 951px){
+
+     *{margin: 0; padding: 0;}
+
+
+     /*MENU DO TOPO*/
+     section#menu_responsivo{display: none;}
+     section#menu-topo{margin: 0 auto; width: 100%; border: #000 1px solid; padding-bottom: 10px; background-color: #000; box-sizing: border-box;}
+     section#menu-topo table#menu-topo{width: 100%; border-spacing: 0; box-sizing: border-box; margin-top: 20px;}
+     section#menu-topo table#menu-topo tr td{text-align: right; }
+     section#menu-topo table#menu-topo tr td:first-child{text-align: center; width: 40%;}
+     section#menu-topo table#menu-topo img{width: 250px;}
+     section#menu-topo table#menu-topo ul#menu-topo{list-style: none; text-align: left; box-sizing: border-box; background-color: rgba(0,0,0,.5); padding-left: 50px;}
+     section#menu-topo table#menu-topo ul#menu-topo li{display: inline-block; margin: 10px;}
+     section#menu-topo table#menu-topo ul#menu-topo li a{display: block; text-decoration: none; color: #fff; font-family: 'Josefin Sans', sans-serif; text-transform: uppercase; font-size: .8em; padding: 0 10px; text-align: center;}
+     section#menu-topo table#menu-topo ul#menu-topo li a:hover{color: #ccc;}
+
+     
+     /*PAGINA GALERIA.PHP*/
+     
+     
+     section#lista{margin: 0 auto; width: 100%; margin-top: 50px;}
+     section#lista ul#lista-categoria{margin: 0 auto; width: 100%; padding: 20px; box-sizing: border-box; text-align: center;}
+     section#lista ul#lista-categoria li{display: inline-block;}
+     section#lista ul#lista-categoria li a{padding: 10px 20px; text-decoration: none; color: #444; text-transform: capitalize; font-family: 'Quicksand', sans-serif; font-size: 1.2em;}
+     section#lista ul#lista-categoria li a:hover{color: #999;}
+
+     section#galeria ul#galeria{margin: 0 auto; width: 100%; list-style: none; text-align: left; margin-top: 80px; box-sizing: border-box; }
+     section#galeria ul#galeria li{width: 25%; height: 230px; display: inline-block; margin-left: -5px; box-sizing: border-box; position: relative; margin-top: -5px; background-position: center; background-repeat: no-repeat; background-size: 100%; position: relative;}     
+     section#galeria ul#galeria li div#div-camada-geral2{width: 100%; height: 100%; background-color: rgba(255,255,255,.8); visibility: hidden; position: absolute;}
+     section#galeria ul#galeria li:hover div#div-camada-geral2{visibility: visible; transition: 1s; transition-timing-function: ease-in;}
+     section#galeria ul#galeria li div#div-camada-geral2 p#titulo-galeria{margin: 0 auto; width: 90%; text-align: center; margin-top: 30px; text-transform: capitalize; font-family: 'Quicksand', sans-serif; font-size: 1.1em;}
+     section#galeria ul#galeria li div#div-camada-geral2 p#categoria-galeria{margin: 0 auto; width: 90%; text-align: center; margin-top: 20px; text-transform: uppercase; font-size: 1.2em; font-family: 'Quicksand', sans-serif;}
+     section#galeria ul#galeria li div#div-camada-geral2 a#link-veja-mais{margin: 0 auto; margin-top: 25px; display: block; border: #000 1px solid; width: 100px; font-family: 'Quicksand', sans-serif; padding: 10px; border-radius: 50px; text-decoration: none; color: #000; text-transform: uppercase; text-align: center;}
+     section#galeria ul#galeria li div#div-camada-geral2 a#link-veja-mais:hover{background-color: #000; color: #fff;}
+
+
+     section#footer{margin: 0 auto; width: 100%; margin-top: 50px; box-sizing: border-box; padding: 10px; margin-bottom: 50px;}     
+     section#footer footer ul#ul-footer{margin: 0 auto; width: 100%; list-style: none; margin: 0; padding: 0;  text-align: center; vertical-align: top;}
+     section#footer footer ul#ul-footer li{ width: 49%; height: 500px; float: left;}
+     section#footer footer ul#ul-footer li h1{font-family: 'Quicksand', sans-serif; font-size: 2em; text-align: center; margin-top: 80px; text-transform: uppercase; display: block; color: #444;}
+     section#footer footer ul#ul-footer li p{font-family: 'Quicksand', sans-serif; font-size: 1.1em; text-align: center; margin-top: 30px; line-height: 30px;}
+     section#footer footer ul#ul-footer li a{text-decoration: none; color: #444;}
+     section#footer footer ul#ul-footer li table#tbl-info-footer{margin: 0 auto; width: 50%;text-align: center; margin-top: 30px;}
+     section#footer footer ul#ul-footer li table#tbl-info-footer td{text-align: center;}
+     section#footer footer ul#ul-footer li table#tbl-info-footer img#img-social{width: 50px; border: none;}
+     /*FIM DA PAGINA GALERIA.PHP*/
+     
+     
+     /*PAGINA GALERIA-VIEW.PHP*/
+     section#lista-fotos{margin: 0 auto; width: 100%; margin-top: 50px; padding: 10px;}
+     section#lista-fotos h1{font-family: 'Quicksand', sans-serif; text-transform: uppercase; text-align: center; }
+     section#lista-fotos ul#lista-fotos{width: 100%; margin: 0 auto; margin-top: 40px; padding: 10px; box-sizing: border-box; text-align: center; list-style: none;}
+     section#lista-fotos ul#lista-fotos li{width: 100%; text-align: center; display: block;}
+     
+     
+     section#comentarios{margin: 0 auto; width: 80%; margin-top: 50px;}
+     section#comentarios h1{margin: 0 auto; width: 100%; font-family: 'Quicksand', sans-serif; text-transform: uppercase; text-align: left;}
+     section#comentarios input#input-email{margin: 0 auto; width: 100%; margin-top: 20px; display: block; padding: 10px; border-radius: 10px; font-family: 'Quicksand', sans-serif; font-size: 1.2em; border: #999 1px solid}
+     section#comentarios textarea#text-comentario{margin: 0 auto; width: 100%; margin-top: 5px; height: 150px; display: block; padding: 10px; border-radius: 10px; font-family: 'Quicksand', sans-serif; font-size: 1.2em;}
+     section#comentarios input#input-btn{margin-top: 10px; padding: 10px 25px; font-family: 'Quicksand', sans-serif; font-size: 1em;}
+     
+     section#exibi-comentario{margin: 0 auto; width: 80%; margin-top: 50px;}
+     section#exibi-comentario ul#lista-comentario{margin: 0 auto; width: 80%; list-style: none;}
+     section#exibi-comentario ul#lista-comentario li{width: 100%; padding: 10px; box-sizing: border-box; margin-bottom: 30px; border-bottom: 1px solid #CCC;}
+     section#exibi-comentario ul#lista-comentario li p:first-child{margin: 0 auto; width: 100%; display: block; font-size: 1.2em; font-family: 'Quicksand', sans-serif; text-align: left;}
+     section#exibi-comentario ul#lista-comentario li p:nth-child(2){margin: 0 auto; width: 100%; display: block; font-size: .9em; font-family: 'Quicksand', sans-serif; text-align: justify; font-style: italic; margin-left: 20px; margin-top: 5px;}
+     section#exibi-comentario ul#lista-comentario li p:last-child{margin: 0 auto; width: 100%; display: block; font-size: 1.2em; font-family: 'Quicksand', sans-serif; text-align: justify; font-style: italic; margin-left: 20px; margin-top: 5px;}
+     /*FIM PAGINA GALERIA-VIEW.PHP*/
+
+
+
+}
